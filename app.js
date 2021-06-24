@@ -54,8 +54,8 @@ Test this function by hand in the console to get it working, and when you think 
 function sumAndMultiply(a, b, c) { //eslint-disable-line
     let sumn=a+b+c;
     let mult=a*b*c;
-    // console.log('The sum of '+a+' and ' +b+' and '+c+ ' is ' +sumn+'.')
-    // console.log('The product of '+a+' and ' +b+' and '+c+ ' is ' +mult+'.')
+    console.log('The sum of '+a+' and ' +b+' and '+c+ ' is ' +sumn+'.')
+    console.log('The product of '+a+' and ' +b+' and '+c+ ' is ' +mult+'.')
     return[sumn,mult,a+' and ' +b+' and '+c+ ' sum to ' +sumn+'.','The product of '+a+' and ' +b+' and '+c+ ' is ' +mult+'.']
     
 }

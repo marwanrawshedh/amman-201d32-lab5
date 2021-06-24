@@ -88,7 +88,7 @@ return[sum,testArray+' was passed in as an array of numbers, and '+sum+' is thei
 }
 
 
-// Here is the test for sumArray(); uncomment it to run it
+// Here is the test for sumArray(); uncomment it to run it .
 
 testSumArray(testArray);
 
